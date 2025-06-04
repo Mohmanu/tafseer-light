@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tafseer Light</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1c3f2b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #2e5f3e;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2rem;
+      text-align: center;
+    }
+    footer {
+      background-color: #1c3f2b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tafseer Light</h1>
+    <p>Understanding the Qur’an - Simple & Clear</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="tafseer.html">Tafseer</a>
+    <a href="quran-audio.html">Audio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Welcome to Tafseer Light</h2>
+    <p>This website is created to help you explore the meaning and recitation of the Holy Qur’an.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Tafseer Light. All rights reserved.
+  </footer>
+</body>
+</html>
